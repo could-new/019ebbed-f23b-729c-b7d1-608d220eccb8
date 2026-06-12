@@ -26,7 +26,7 @@ class EpisodeScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Text(
-                'Длительность: ~${episode.durationMinutes} мин',
+                'Длительность: ~${episode.duration}',
                 style: const TextStyle(color: Colors.purpleAccent, fontWeight: FontWeight.bold),
               ),
             ),
